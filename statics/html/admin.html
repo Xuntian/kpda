@@ -1,0 +1,42 @@
+<style>
+    .admin-panel{
+        padding: 40px 180px;
+    }
+</style>
+
+<div ng-controller="adminController">
+    <wiki-page data-content="asideHtmlContent" data-content-url="contentUrl">
+
+    </wiki-page>
+
+    <div class="admin-panel">
+        <article class="cl pd-20">
+            <p class="f-20 text-success"></p>
+            <table class="table table-border table-bordered table-bg">
+                <thead>
+                    <tr>
+                        <th colspan="7" scope="col">管理员账户列表</th>
+                    </tr>
+                    <tr class="text-c">
+                        <th>账户名</th>
+                        <th>邮箱</th>
+                        <th>手机号</th>
+                        <th>权限等级</th>
+                        <th>状态</th>
+                        <th>修改时间</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="text-c">
+                        <td>1</td>
+                        <td>2</td>
+                        <td>9</td>
+                        <td>0</td>
+                        <td>8</td>
+                        <td>20</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </div>
+</div>

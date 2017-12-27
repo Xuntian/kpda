@@ -1,0 +1,938 @@
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 10:24:10|-1481853056|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 10:24:10 36||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 10:24:10 36||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 10:24:10 36||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 10:24:10 36||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 10:24:10 36||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+[string "npl_packages/nws/npl_mod/nws/npl/util.lua"]:145: module 'requests' not found:
+	no field package.preload['requests']not found by NPL.load
+	no file './requests.lua'
+	no file '/usr/local/share/luajit-2.1.0-beta3/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests/init.lua'
+	no file './requests.so'
+	no file '/usr/local/lib/lua/5.1/requests.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' <Runtime error>
+2017-12-27 10:24:10 75|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+warning: script file model/page.lua not found
+2017-12-27 10:24:10 99|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 10:24:10 100|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 10:24:15|-1947490432|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 10:24:15 22||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 10:24:15 22||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 10:24:15 22||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 10:24:15 22||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 10:24:15 22||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+[string "npl_packages/nws/npl_mod/nws/npl/util.lua"]:145: module 'requests' not found:
+	no field package.preload['requests']not found by NPL.load
+	no file './requests.lua'
+	no file '/usr/local/share/luajit-2.1.0-beta3/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests/init.lua'
+	no file './requests.so'
+	no file '/usr/local/lib/lua/5.1/requests.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' <Runtime error>
+2017-12-27 10:24:15 64|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+warning: script file model/page.lua not found
+2017-12-27 10:24:15 73|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 10:24:15 73|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL max pending incoming connections allowed is 1000
+2017-12-27 10:25:00|1224611584|incoming connection (172.16.0.1/36136) is established and assigned a temporary id (~1). 
+2017-12-27 10:25:00|1224611584|incoming connection (172.16.0.1/36138) is established and assigned a temporary id (~2). 
+NPL PROGRAME
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+[string "npl_packages/nws/npl_mod/nws/npl/util.lua"]:145: module 'requests' not found:
+	no field package.preload['requests']not found by NPL.load
+	no file './requests.lua'
+	no file '/usr/local/share/luajit-2.1.0-beta3/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests/init.lua'
+	no file './requests.so'
+	no file '/usr/local/lib/lua/5.1/requests.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' <Runtime error>
+2017-12-27 10:25:00 45132|worker_5|system|TableDatabase|sync mode api is enabled in thread worker_5
+warning: script file model/page.lua not found
+GET /
+[string "helper/filter.lua"]:6: attempt to index field 'util' (a nil value) <Runtime error>
+2017-12-27 10:27:01|1224611584|connection time out (172.16.0.1/36136) with id (~1). 
+2017-12-27 10:27:01|1224611584|connection time out (172.16.0.1/36138) with id (~2). 
+2017-12-27 10:27:01|1224611584|connection closed (172.16.0.1/36136) with id (~1). 
+2017-12-27 10:27:01|1224611584|connection closed (172.16.0.1/36138) with id (~2). 
+2017-12-27 10:27:01|1224611584|incoming connection (172.16.0.1/36172) is established and assigned a temporary id (~3). 
+NPL PROGRAME
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+[string "npl_packages/nws/npl_mod/nws/npl/util.lua"]:145: module 'requests' not found:
+	no field package.preload['requests']not found by NPL.load
+	no file './requests.lua'
+	no file '/usr/local/share/luajit-2.1.0-beta3/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests/init.lua'
+	no file './requests.so'
+	no file '/usr/local/lib/lua/5.1/requests.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' <Runtime error>
+2017-12-27 10:27:01 166191|worker_6|system|TableDatabase|sync mode api is enabled in thread worker_6
+warning: script file model/page.lua not found
+GET /
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 10:27:15|1020438400|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 10:27:15 22||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 10:27:15 22||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 10:27:15 22||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 10:27:15 22||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 10:27:15 22||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+[string "npl_packages/nws/npl_mod/nws/npl/util.lua"]:145: module 'requests' not found:
+	no field package.preload['requests']not found by NPL.load
+	no file './requests.lua'
+	no file '/usr/local/share/luajit-2.1.0-beta3/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests/init.lua'
+	no file './requests.so'
+	no file '/usr/local/lib/lua/5.1/requests.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' <Runtime error>
+2017-12-27 10:27:15 63|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+warning: script file model/page.lua not found
+2017-12-27 10:27:15 75|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 10:27:15 75|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 10:27:20|-238872704|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 10:27:20 21||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 10:27:20 21||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 10:27:20 21||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 10:27:20 21||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 10:27:20 21||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+[string "npl_packages/nws/npl_mod/nws/npl/util.lua"]:145: module 'requests' not found:
+	no field package.preload['requests']not found by NPL.load
+	no file './requests.lua'
+	no file '/usr/local/share/luajit-2.1.0-beta3/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests/init.lua'
+	no file './requests.so'
+	no file '/usr/local/lib/lua/5.1/requests.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' <Runtime error>
+2017-12-27 10:27:20 68|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+warning: script file model/page.lua not found
+2017-12-27 10:27:20 83|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 10:27:20 84|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL max pending incoming connections allowed is 1000
+2017-12-27 10:27:45|-1359063296|incoming connection (172.16.0.1/36202) is established and assigned a temporary id (~1). 
+2017-12-27 10:27:45|-1359063296|incoming connection (172.16.0.1/36204) is established and assigned a temporary id (~2). 
+NPL PROGRAME
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+[string "npl_packages/nws/npl_mod/nws/npl/util.lua"]:145: module 'requests' not found:
+	no field package.preload['requests']not found by NPL.load
+	no file './requests.lua'
+	no file '/usr/local/share/luajit-2.1.0-beta3/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests/init.lua'
+	no file './requests.so'
+	no file '/usr/local/lib/lua/5.1/requests.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' <Runtime error>
+2017-12-27 10:27:45 25424|worker_5|system|TableDatabase|sync mode api is enabled in thread worker_5
+warning: script file model/page.lua not found
+GET /
+[string "helper/filter.lua"]:6: attempt to index field 'util' (a nil value) <Runtime error>
+network: handle_read stopped, asio msg: End of file. Connection will be closed 
+2017-12-27 10:27:53|-1359063296|connection closed (172.16.0.1/36202) with id (~1). 
+2017-12-27 10:27:53|-1359063296|incoming connection (172.16.0.1/36206) is established and assigned a temporary id (~3). 
+NPL PROGRAME
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+[string "npl_packages/nws/npl_mod/nws/npl/util.lua"]:145: module 'requests' not found:
+	no field package.preload['requests']not found by NPL.load
+	no file './requests.lua'
+	no file '/usr/local/share/luajit-2.1.0-beta3/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests/init.lua'
+	no file './requests.so'
+	no file '/usr/local/lib/lua/5.1/requests.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' <Runtime error>
+2017-12-27 10:27:53 33310|worker_6|system|TableDatabase|sync mode api is enabled in thread worker_6
+warning: script file model/page.lua not found
+GET /demo
+[string "helper/filter.lua"]:6: attempt to index field 'util' (a nil value) <Runtime error>
+2017-12-27 10:29:12|-238872704|0|service is stopped|Line 40: void ParaEngine::CParaEngineService::StopService():/opt/NPLRuntime/Client/trunk/ParaEngineClient/Core/ParaEngineService.cpp|
+2017-12-27 10:29:12|-238872704|0|service is stopped|Line 40: void ParaEngine::CParaEngineService::StopService():/opt/NPLRuntime/Client/trunk/ParaEngineClient/Core/ParaEngineService.cpp|
+error: CNPLNetServer unable to accept incoming connection, because: Operation canceled
+current connections 0
+2017-12-27 10:29:12|-1359063296|connection closed (172.16.0.1/36204) with id (~2). 
+2017-12-27 10:29:12|-1359063296|connection closed (172.16.0.1/36206) with id (~3). 
+NPL State worker_9 exited
+NPL State worker_8 exited
+NPL State worker_7 exited
+NPL State worker_6 exited
+NPL State worker_5 exited
+NPL State worker_40 exited
+NPL State worker_4 exited
+NPL State worker_39 exited
+NPL State worker_38 exited
+NPL State worker_37 exited
+NPL State worker_36 exited
+NPL State worker_35 exited
+NPL State worker_34 exited
+NPL State worker_33 exited
+NPL State worker_32 exited
+NPL State worker_31 exited
+NPL State worker_30 exited
+NPL State worker_3 exited
+NPL State worker_29 exited
+NPL State worker_28 exited
+NPL State worker_27 exited
+NPL State worker_26 exited
+NPL State worker_25 exited
+NPL State worker_24 exited
+NPL State worker_23 exited
+NPL State worker_22 exited
+NPL State worker_21 exited
+NPL State worker_20 exited
+NPL State worker_2 exited
+NPL State worker_19 exited
+NPL State worker_18 exited
+NPL State worker_17 exited
+NPL State worker_16 exited
+NPL State worker_15 exited
+NPL State worker_14 exited
+NPL State worker_13 exited
+NPL State worker_12 exited
+NPL State worker_11 exited
+NPL State worker_10 exited
+NPL State worker_1 exited
+NPL State tdb exited
+NPL State main exited
+CAsyncLoader worker thread 0 of 5 is exited
+CAsyncLoader worker thread 1 of 5 is exited
+CAsyncLoader worker thread 2 of 5 is exited
+CAsyncLoader worker thread 3 of 5 is exited
+CAsyncLoader worker thread 4 of 5 is exited
+CAsyncLoader IO thread is exited
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 11:29:33|-1053005952|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 11:29:33 17||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 11:29:33 17||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 11:29:33 17||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 11:29:33 17||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 11:29:33 17||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+[string "npl_packages/nws/npl_mod/nws/npl/util.lua"]:145: module 'requests' not found:
+	no field package.preload['requests']not found by NPL.load
+	no file './requests.lua'
+	no file '/usr/local/share/luajit-2.1.0-beta3/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests/init.lua'
+	no file './requests.so'
+	no file '/usr/local/lib/lua/5.1/requests.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' <Runtime error>
+2017-12-27 11:29:33 80|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+warning: script file model/page.lua not found
+2017-12-27 11:29:33 91|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 11:29:33 91|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL max pending incoming connections allowed is 1000
+2017-12-27 11:29:40|2113844992|incoming connection (172.16.0.1/33668) is established and assigned a temporary id (~1). 
+NPL PROGRAME
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+[string "npl_packages/nws/npl_mod/nws/npl/util.lua"]:145: module 'requests' not found:
+	no field package.preload['requests']not found by NPL.load
+	no file './requests.lua'
+	no file '/usr/local/share/luajit-2.1.0-beta3/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests/init.lua'
+	no file './requests.so'
+	no file '/usr/local/lib/lua/5.1/requests.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' <Runtime error>
+2017-12-27 11:29:40 7325|worker_5|system|TableDatabase|sync mode api is enabled in thread worker_5
+warning: script file model/page.lua not found
+GET /
+[string "helper/filter.lua"]:6: attempt to index field 'util' (a nil value) <Runtime error>
+2017-12-27 11:31:41|2113844992|connection time out (172.16.0.1/33668) with id (~1). 
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 11:32:13|1236264832|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 11:32:13 19||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 11:32:13 19||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 11:32:13 19||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 11:32:13 19||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 11:32:13 19||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+[string "npl_packages/nws/npl_mod/nws/npl/util.lua"]:145: module 'requests' not found:
+	no field package.preload['requests']not found by NPL.load
+	no file './requests.lua'
+	no file '/usr/local/share/luajit-2.1.0-beta3/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests/init.lua'
+	no file './requests.so'
+	no file '/usr/local/lib/lua/5.1/requests.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' <Runtime error>
+2017-12-27 11:32:13 61|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+warning: script file model/page.lua not found
+2017-12-27 11:32:13 73|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 11:32:13 73|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 11:32:17|2110068608|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 11:32:17 23||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 11:32:17 23||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 11:32:17 23||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 11:32:17 23||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 11:32:17 24||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+[string "npl_packages/nws/npl_mod/nws/npl/util.lua"]:145: module 'requests' not found:
+	no field package.preload['requests']not found by NPL.load
+	no file './requests.lua'
+	no file '/usr/local/share/luajit-2.1.0-beta3/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests.lua'
+	no file '/usr/local/share/lua/5.1/requests/init.lua'
+	no file './requests.so'
+	no file '/usr/local/lib/lua/5.1/requests.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' <Runtime error>
+2017-12-27 11:32:17 64|main|system|TableDatabase|sync mode api is enabled in thread main
+warning: script file model/page.lua not found
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 11:32:17 73|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 11:32:17 73|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 11:33:06|722589568|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 11:33:06 16||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 11:33:06 16||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 11:33:06 16||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 11:33:06 16||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 11:33:06 16||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 11:33:06 63|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+warning: script file model/page.lua not found
+2017-12-27 11:33:06 77|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 11:33:06 78|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL max pending incoming connections allowed is 1000
+2017-12-27 11:33:11|-394160384|incoming connection (172.16.0.1/35604) is established and assigned a temporary id (~1). 
+NPL PROGRAME
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 11:33:11 5166|worker_5|system|TableDatabase|sync mode api is enabled in thread worker_5
+warning: script file model/page.lua not found
+GET /
+no router match:/
+GET /assets/css/main.css?bust=1514345591
+2017-12-27 11:33:11|-394160384|incoming connection (172.16.0.1/35606) is established and assigned a temporary id (~2). 
+GET /js/lib/requirejs/require.js
+2017-12-27 11:33:11|-394160384|incoming connection (172.16.0.1/35608) is established and assigned a temporary id (~3). 
+GET /js/lib/bootstrap/css/bootstrap.min.css
+GET /assets/css/H-ui.min.css
+GET /assets/css/H-ui.admin.css
+GET /js/main.js?bust=1514345591
+GET /js/lib/requirejs/domReady.js?bust=1514345591492
+GET /js/app.js?bust=1514345591492
+GET /js/app/controller/mainController.js?bust=1514345591492
+GET /js/lib/jquery/jquery.min.js?bust=1514345591492
+GET /js/app/helper/mdwiki.js?bust=1514345591492
+GET /js/app/helper/util.js?bust=1514345591492
+GET /js/app/helper/md/mdconf.js?bust=1514345591492
+GET /js/app/helper/md/md.js?bust=1514345591492
+GET /js/lib/bootstrap/js/bootstrap.min.js?bust=1514345591492
+GET /js/lib/angular/angular.min.js?bust=1514345591492
+GET /js/lib/bootstrap/css/bootstrap.min.css.map
+GET /js/lib/angular-ui-bootstrap/ui-bootstrap-tpls.js?bust=1514345591492
+GET /js/lib/satellizer/satellizer.min.js?bust=1514345591492
+GET /js/app/helper/storage.js?bust=1514345591492
+GET /js/app/directive/wikiPage.js?bust=1514345591492
+GET /js/app/controller/headerController.js?bust=1514345591492
+GET /js/app/controller/loginController.js?bust=1514345591492
+GET /js/app/controller/footerController.js?bust=1514345591492
+GET /js/lib/requirejs/text.js?bust=1514345591492
+GET /html/header.html?bust=1514345591492
+GET /html/login.html?bust=1514345591492
+GET /html/test.html?bust=1514345591492
+GET /html/footer.html?bust=1514345591492
+GET /js/lib/angular/angular.min.js.map
+GET /
+no router match:/
+GET /assets/css/main.css?bust=1514345594
+GET /js/lib/requirejs/require.js
+GET /js/lib/bootstrap/css/bootstrap.min.css
+GET /assets/css/H-ui.min.css
+GET /assets/css/H-ui.admin.css
+GET /js/main.js?bust=1514345594
+GET /js/lib/requirejs/domReady.js?bust=1514345594195
+GET /js/app.js?bust=1514345594195
+GET /js/app/controller/mainController.js?bust=1514345594195
+GET /js/lib/jquery/jquery.min.js?bust=1514345594195
+GET /js/app/helper/mdwiki.js?bust=1514345594195
+GET /js/app/helper/util.js?bust=1514345594195
+GET /js/app/helper/md/mdconf.js?bust=1514345594195
+GET /js/app/helper/md/md.js?bust=1514345594195
+GET /js/lib/bootstrap/js/bootstrap.min.js?bust=1514345594195
+GET /js/lib/angular/angular.min.js?bust=1514345594195
+GET /js/lib/bootstrap/css/bootstrap.min.css.map
+GET /js/lib/angular-ui-bootstrap/ui-bootstrap-tpls.js?bust=1514345594195
+GET /js/lib/satellizer/satellizer.min.js?bust=1514345594195
+GET /js/app/helper/storage.js?bust=1514345594195
+GET /js/app/directive/wikiPage.js?bust=1514345594195
+GET /js/lib/angular/angular.min.js.map
+GET /js/app/controller/headerController.js?bust=1514345594195
+GET /js/app/controller/loginController.js?bust=1514345594195
+GET /js/app/controller/footerController.js?bust=1514345594195
+GET /js/lib/requirejs/text.js?bust=1514345594195
+GET /html/header.html?bust=1514345594195
+GET /html/login.html?bust=1514345594195
+GET /html/test.html?bust=1514345594195
+GET /html/footer.html?bust=1514345594195
+GET /dashboard/admin
+no router match:/dashboard/admin
+GET /assets/css/main.css?bust=1514345597
+GET /js/lib/requirejs/require.js
+GET /js/lib/bootstrap/css/bootstrap.min.css
+GET /assets/css/H-ui.min.css
+GET /assets/css/H-ui.admin.css
+GET /js/main.js?bust=1514345597
+GET /js/lib/requirejs/domReady.js?bust=1514345597462
+GET /js/app.js?bust=1514345597462
+GET /js/app/controller/mainController.js?bust=1514345597462
+GET /js/lib/jquery/jquery.min.js?bust=1514345597462
+GET /js/app/helper/mdwiki.js?bust=1514345597462
+GET /js/app/helper/util.js?bust=1514345597462
+GET /js/app/helper/md/mdconf.js?bust=1514345597462
+GET /js/app/helper/md/md.js?bust=1514345597462
+GET /js/lib/bootstrap/js/bootstrap.min.js?bust=1514345597462
+GET /js/lib/bootstrap/css/bootstrap.min.css.map
+GET /js/lib/angular/angular.min.js?bust=1514345597462
+GET /js/lib/angular-ui-bootstrap/ui-bootstrap-tpls.js?bust=1514345597462
+GET /js/lib/satellizer/satellizer.min.js?bust=1514345597462
+GET /js/app/helper/storage.js?bust=1514345597462
+GET /js/app/directive/wikiPage.js?bust=1514345597462
+GET /js/lib/angular/angular.min.js.map
+GET /js/app/controller/headerController.js?bust=1514345597462
+GET /js/app/controller/adminController.js?bust=1514345597462
+GET /js/app/controller/footerController.js?bust=1514345597462
+GET /js/lib/requirejs/text.js?bust=1514345597462
+GET /js/app/controller/asideController.js?bust=1514345597462
+GET /html/header.html?bust=1514345597462
+GET /html/aside.html?bust=1514345597462
+GET /html/admin.html?bust=1514345597462
+GET /html/footer.html?bust=1514345597462
+GET /dashboard/admin
+no router match:/dashboard/admin
+GET /assets/css/main.css?bust=1514345698
+GET /js/lib/requirejs/require.js
+GET /js/lib/bootstrap/css/bootstrap.min.css
+GET /assets/css/H-ui.min.css
+GET /assets/css/H-ui.admin.css
+GET /js/main.js?bust=1514345698
+GET /js/lib/requirejs/domReady.js?bust=1514345698570
+GET /js/app.js?bust=1514345698570
+GET /js/app/controller/mainController.js?bust=1514345698570
+GET /js/lib/jquery/jquery.min.js?bust=1514345698570
+GET /js/app/helper/mdwiki.js?bust=1514345698570
+GET /js/app/helper/util.js?bust=1514345698570
+GET /js/app/helper/md/mdconf.js?bust=1514345698570
+GET /js/app/helper/md/md.js?bust=1514345698570
+GET /js/lib/bootstrap/css/bootstrap.min.css.map
+GET /js/lib/bootstrap/js/bootstrap.min.js?bust=1514345698570
+GET /js/lib/angular/angular.min.js?bust=1514345698570
+GET /js/lib/angular-ui-bootstrap/ui-bootstrap-tpls.js?bust=1514345698570
+GET /js/lib/satellizer/satellizer.min.js?bust=1514345698570
+GET /js/app/helper/storage.js?bust=1514345698570
+GET /js/app/directive/wikiPage.js?bust=1514345698570
+GET /js/lib/angular/angular.min.js.map
+GET /js/app/controller/headerController.js?bust=1514345698570
+GET /js/app/controller/adminController.js?bust=1514345698570
+GET /js/app/controller/footerController.js?bust=1514345698570
+GET /js/lib/requirejs/text.js?bust=1514345698570
+GET /js/app/controller/asideController.js?bust=1514345698570
+GET /html/header.html?bust=1514345698570
+GET /html/aside.html?bust=1514345698570
+GET /html/admin.html?bust=1514345698570
+GET /html/footer.html?bust=1514345698570
+GET /dashboard/admin
+no router match:/dashboard/admin
+GET /assets/css/main.css?bust=1514345699
+GET /js/lib/requirejs/require.js
+GET /js/lib/bootstrap/css/bootstrap.min.css
+2017-12-27 11:34:59|-394160384|incoming connection (172.16.0.1/36484) is established and assigned a temporary id (~4). 
+GET /assets/css/H-ui.min.css
+GET /assets/css/H-ui.admin.css
+GET /js/main.js?bust=1514345699
+GET /js/lib/requirejs/domReady.js?bust=1514345699962
+GET /js/app.js?bust=1514345699962
+GET /js/app/controller/mainController.js?bust=1514345699962
+GET /js/app/helper/mdwiki.js?bust=1514345699962
+GET /js/app/helper/util.js?bust=1514345699962
+GET /js/lib/jquery/jquery.min.js?bust=1514345699962
+GET /js/app/helper/md/mdconf.js?bust=1514345699962
+GET /js/app/helper/md/md.js?bust=1514345699962
+GET /js/lib/bootstrap/js/bootstrap.min.js?bust=1514345699962
+GET /js/lib/bootstrap/css/bootstrap.min.css.map
+GET /js/lib/angular/angular.min.js?bust=1514345699962
+GET /js/lib/angular-ui-bootstrap/ui-bootstrap-tpls.js?bust=1514345699962
+GET /js/lib/satellizer/satellizer.min.js?bust=1514345699962
+GET /js/app/helper/storage.js?bust=1514345699962
+GET /js/app/directive/wikiPage.js?bust=1514345699962
+GET /js/app/controller/headerController.js?bust=1514345699962
+GET /js/app/controller/adminController.js?bust=1514345699962
+GET /js/app/controller/footerController.js?bust=1514345699962
+GET /js/lib/requirejs/text.js?bust=1514345699962
+GET /js/app/controller/asideController.js?bust=1514345699962
+GET /js/lib/angular/angular.min.js.map
+GET /html/header.html?bust=1514345699962
+GET /html/aside.html?bust=1514345699962
+GET /html/admin.html?bust=1514345699962
+GET /html/footer.html?bust=1514345699962
+GET /dashboard/admin
+no router match:/dashboard/admin
+GET /assets/css/main.css?bust=1514345701
+GET /js/lib/requirejs/require.js
+GET /js/lib/bootstrap/css/bootstrap.min.css
+GET /assets/css/H-ui.min.css
+GET /assets/css/H-ui.admin.css
+GET /js/main.js?bust=1514345701
+GET /js/lib/requirejs/domReady.js?bust=1514345701251
+GET /js/app.js?bust=1514345701251
+GET /js/app/controller/mainController.js?bust=1514345701251
+GET /js/app/helper/mdwiki.js?bust=1514345701251
+GET /js/app/helper/util.js?bust=1514345701251
+GET /js/lib/jquery/jquery.min.js?bust=1514345701251
+GET /js/app/helper/md/mdconf.js?bust=1514345701251
+GET /js/app/helper/md/md.js?bust=1514345701251
+GET /js/lib/bootstrap/js/bootstrap.min.js?bust=1514345701251
+GET /js/lib/bootstrap/css/bootstrap.min.css.map
+GET /js/lib/angular/angular.min.js?bust=1514345701251
+GET /js/lib/angular-ui-bootstrap/ui-bootstrap-tpls.js?bust=1514345701251
+GET /js/lib/satellizer/satellizer.min.js?bust=1514345701251
+GET /js/app/helper/storage.js?bust=1514345701251
+GET /js/app/directive/wikiPage.js?bust=1514345701251
+GET /js/lib/angular/angular.min.js.map
+GET /js/app/controller/headerController.js?bust=1514345701251
+GET /js/app/controller/adminController.js?bust=1514345701251
+GET /js/app/controller/footerController.js?bust=1514345701251
+GET /js/lib/requirejs/text.js?bust=1514345701251
+GET /js/app/controller/asideController.js?bust=1514345701251
+GET /html/header.html?bust=1514345701251
+GET /html/footer.html?bust=1514345701251
+GET /html/aside.html?bust=1514345701251
+GET /html/admin.html?bust=1514345701251
+GET /dashboard/demo
+no router match:/dashboard/demo
+GET /assets/css/main.css?bust=1514345703
+GET /js/lib/requirejs/require.js
+GET /js/lib/bootstrap/css/bootstrap.min.css
+GET /assets/css/H-ui.min.css
+GET /assets/css/H-ui.admin.css
+GET /js/main.js?bust=1514345703
+GET /js/lib/requirejs/domReady.js?bust=1514345703180
+GET /js/app.js?bust=1514345703180
+GET /js/app/controller/mainController.js?bust=1514345703180
+GET /js/lib/jquery/jquery.min.js?bust=1514345703180
+GET /js/app/helper/mdwiki.js?bust=1514345703180
+GET /js/app/helper/util.js?bust=1514345703180
+GET /js/app/helper/md/mdconf.js?bust=1514345703180
+GET /js/app/helper/md/md.js?bust=1514345703180
+GET /js/lib/bootstrap/css/bootstrap.min.css.map
+GET /js/lib/bootstrap/js/bootstrap.min.js?bust=1514345703180
+GET /js/lib/angular/angular.min.js?bust=1514345703180
+GET /js/lib/angular-ui-bootstrap/ui-bootstrap-tpls.js?bust=1514345703180
+GET /js/lib/satellizer/satellizer.min.js?bust=1514345703180
+GET /js/app/helper/storage.js?bust=1514345703180
+GET /js/app/directive/wikiPage.js?bust=1514345703180
+GET /js/lib/angular/angular.min.js.map
+GET /js/app/controller/headerController.js?bust=1514345703180
+GET /js/app/controller/demoController.js?bust=1514345703180
+GET /js/app/controller/footerController.js?bust=1514345703180
+GET /js/lib/requirejs/text.js?bust=1514345703180
+GET /js/app/controller/asideController.js?bust=1514345703180
+GET /html/header.html?bust=1514345703180
+GET /html/aside.html?bust=1514345703180
+GET /html/demo.html?bust=1514345703180
+GET /html/footer.html?bust=1514345703180
+2017-12-27 11:35:04|-394160384|incoming connection (172.16.0.1/36528) is established and assigned a temporary id (~5). 
+2017-12-27 11:35:04|-394160384|incoming connection (172.16.0.1/36530) is established and assigned a temporary id (~6). 
+GET /js/main.js?bust=1514345701
+GET /js/lib/requirejs/domReady.js?bust=1514345704862
+GET /js/app.js?bust=1514345704862
+GET /js/app/controller/mainController.js?bust=1514345704862
+GET /js/lib/jquery/jquery.min.js?bust=1514345704862
+GET /js/app/helper/mdwiki.js?bust=1514345704862
+GET /js/app/helper/util.js?bust=1514345704862
+GET /js/app/helper/md/mdconf.js?bust=1514345704862
+GET /js/app/helper/md/md.js?bust=1514345704862
+GET /js/lib/bootstrap/js/bootstrap.min.js?bust=1514345704862
+GET /js/lib/angular/angular.min.js?bust=1514345704862
+GET /js/lib/bootstrap/css/bootstrap.min.css.map
+GET /js/lib/angular-ui-bootstrap/ui-bootstrap-tpls.js?bust=1514345704862
+GET /js/lib/satellizer/satellizer.min.js?bust=1514345704862
+GET /js/app/helper/storage.js?bust=1514345704862
+GET /js/app/directive/wikiPage.js?bust=1514345704862
+GET /js/lib/angular/angular.min.js.map
+GET /js/app/controller/headerController.js?bust=1514345704862
+GET /js/app/controller/adminController.js?bust=1514345704862
+GET /js/app/controller/footerController.js?bust=1514345704862
+GET /js/lib/requirejs/text.js?bust=1514345704862
+GET /js/app/controller/asideController.js?bust=1514345704862
+GET /html/header.html?bust=1514345704862
+GET /html/aside.html?bust=1514345704862
+GET /html/admin.html?bust=1514345704862
+GET /html/footer.html?bust=1514345704862
+GET /dashboard/admin
+no router match:/dashboard/admin
+GET /assets/css/main.css?bust=1514345707
+GET /js/lib/requirejs/require.js
+GET /js/lib/bootstrap/css/bootstrap.min.css
+GET /assets/css/H-ui.min.css
+GET /assets/css/H-ui.admin.css
+GET /js/main.js?bust=1514345707
+GET /js/lib/requirejs/domReady.js?bust=1514345707627
+GET /js/app.js?bust=1514345707627
+GET /js/app/controller/mainController.js?bust=1514345707627
+GET /js/lib/jquery/jquery.min.js?bust=1514345707627
+GET /js/app/helper/mdwiki.js?bust=1514345707627
+GET /js/app/helper/util.js?bust=1514345707627
+GET /js/app/helper/md/mdconf.js?bust=1514345707627
+GET /js/app/helper/md/md.js?bust=1514345707627
+GET /js/lib/bootstrap/js/bootstrap.min.js?bust=1514345707627
+GET /js/lib/angular/angular.min.js?bust=1514345707627
+GET /js/lib/bootstrap/css/bootstrap.min.css.map
+GET /js/lib/angular-ui-bootstrap/ui-bootstrap-tpls.js?bust=1514345707627
+GET /js/lib/satellizer/satellizer.min.js?bust=1514345707627
+GET /js/app/helper/storage.js?bust=1514345707627
+GET /js/app/directive/wikiPage.js?bust=1514345707627
+GET /js/lib/angular/angular.min.js.map
+GET /js/app/controller/headerController.js?bust=1514345707627
+GET /js/app/controller/adminController.js?bust=1514345707627
+GET /js/app/controller/footerController.js?bust=1514345707627
+GET /js/lib/requirejs/text.js?bust=1514345707627
+GET /js/app/controller/asideController.js?bust=1514345707627
+GET /html/header.html?bust=1514345707627
+GET /html/aside.html?bust=1514345707627
+GET /html/admin.html?bust=1514345707627
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 11:35:17|-112429184|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 11:35:17 18||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 11:35:17 18||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 11:35:17 18||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 11:35:17 18||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 11:35:17 18||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 11:35:17 64|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+warning: script file model/page.lua not found
+2017-12-27 11:35:17 75|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 11:35:17 75|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 11:35:22|-2027141248|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 11:35:22 16||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 11:35:22 16||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 11:35:22 16||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 11:35:22 16||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 11:35:22 16||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 11:35:22 61|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+warning: script file model/page.lua not found
+2017-12-27 11:35:22 68|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 11:35:22 68|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800

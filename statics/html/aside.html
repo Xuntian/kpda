@@ -1,0 +1,35 @@
+<!-- <style>
+    .home-dev{
+        margin: 60px 0 0 0;
+    }
+</style> -->
+
+<div ng-controller="asideController">
+    <aside class="Hui-aside">  
+        <div class="menu_dropdown bk_2">
+            <dl id="menu-containers">
+                <dt><i class="Hui-iconfont"></i><strong> 管理员</strong><i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+                <dt ng-click="showGivenView('admin')"><i class="Hui-iconfont"></i> - 账户管理<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+            </dl>
+            <dl id="menu-article">
+                <dt><i class="Hui-iconfont"></i><strong> KeepWork</strong><i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+                <dt ng-click="showGivenView('user')"><i class="Hui-iconfont"></i> - 用户<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+                <dt ng-click="showGivenView('website')"><i class="Hui-iconfont"></i> - 站点<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+                <dt ng-click="showGivenView('domain')"><i class="Hui-iconfont"></i> - 域名<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+                <dt ng-click="showGivenView('vip')"><i class="Hui-iconfont"></i> - VIP<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+                <dt ng-click="showGivenView('bigfile')"><i class="Hui-iconfont"></i> - 大文件审核<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+                <dt ng-click="showGivenView('sensitivewords')"><i class="Hui-iconfont"></i> - 敏感词管理<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+                <dt ng-click="showGivenView('oauth')"><i class="Hui-iconfont"></i> - Oauth管理<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+                <dt ng-click="showGivenView('template')"><i class="Hui-iconfont"></i> - 模板管理<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+                <dt ng-click="showGivenView('demo')"><i class="Hui-iconfont"></i> - Demo<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+            </dl>
+            <dl id="menu-article">
+                <dt><i class="Hui-iconfont"></i><strong> 数据统计</strong><i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+                <dt ng-click="showGivenView('demo')"><i class="Hui-iconfont"></i> - demo<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+                <dt ng-click="showGivenView('demo')"><i class="Hui-iconfont"></i> - demo<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+                <dt ng-click="showGivenView('demo')"><i class="Hui-iconfont"></i> - demo<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+            </dl>
+        </div>
+    </aside>
+    
+</div>

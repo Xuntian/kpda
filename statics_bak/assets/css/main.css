@@ -1,0 +1,22 @@
+@import "../../js/lib/bootstrap/css/bootstrap.min.css";
+
+/*@import  "editor.css";*/
+
+a:hover{
+    cursor: pointer;
+}
+
+.kp_vertical_box {
+	display: flex;
+	flex-direction:column;
+}
+
+.kp_horizontal_box {
+	display: flex;
+	flex-direction:row;
+}
+
+.kp_navbar {
+	z-index: 10;
+	height:50px;
+}
