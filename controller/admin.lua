@@ -41,19 +41,19 @@ function admin:new(ctx)
 
 end
 
-function admin:test(ctx)
-    --admin_model:delete({admin_id=2})
-    local params = ctx.request:get_params()
-    --local info, err = admin_model:test(params)
-    local info, err = admin_model:find({name=params.name, password=params.password})
-    return info
-end
+-- function admin:test(ctx)
+--     --admin_model:delete({admin_id=2})
+--     local params = ctx.request:get_params()
+--     --local info, err = admin_model:test(params)
+--     local info, err = admin_model:find({name=params.name, password=params.password})
+--     return info
+-- end
 
 -- function admin:paramsFilter(ctx)
 --     local params = ctx.request:get_params()
 --     if not params.name or not params.password then
 -- 		return (errors:wrap(errors.PARAMS_ERROR, params))
 -- 	end
--- end
+-- end   
 
 return admin

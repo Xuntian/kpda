@@ -52043,3 +52043,683 @@ IdleTimeoutPeriod: 120000
 UseCompression(incoming): false
 CompressionLevel: -1
 CompressionThreshold: 204800
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 19:27:30|525883264|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:27:30 13||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 19:27:30 13||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 19:27:30 13||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 19:27:30 13||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 19:27:30 13||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 19:27:30 61|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+warning: script file model/page.lua not found
+ffi loaded shared lib: C
+2017-12-27 19:27:30 70|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 19:27:30 70|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 19:27:43|1752283008|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:27:43 17||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 19:27:43 17||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 19:27:43 17||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 19:27:43 17||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 19:27:43 17||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 19:27:43 64|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+warning: script file model/page.lua not found
+2017-12-27 19:27:43 73|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 19:27:43 73|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 19:28:12|1803642752|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:28:12 17||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 19:28:12 17||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 19:28:12 17||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 19:28:12 17||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 19:28:12 17||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 19:28:12 61|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+warning: script file model/page.lua not found
+2017-12-27 19:28:12 73|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 19:28:12 73|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 19:28:40|19289984|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:28:40 19||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 19:28:40 19||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 19:28:40 19||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 19:28:40 19||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 19:28:40 19||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 19:28:40 64|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+warning: script file model/page.lua not found
+ffi loaded shared lib: C
+2017-12-27 19:28:40 73|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 19:28:40 73|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 19:29:24|-256522368|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:29:24 27||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 19:29:24 27||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 19:29:24 27||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 19:29:24 27||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 19:29:24 27||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 19:29:24 67|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+warning: script file model/page.lua not found
+2017-12-27 19:29:24 82|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 19:29:24 83|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL max pending incoming connections allowed is 1000
+2017-12-27 19:29:38|-256522368|0|service is stopped|Line 40: void ParaEngine::CParaEngineService::StopService():/opt/NPLRuntime/Client/trunk/ParaEngineClient/Core/ParaEngineService.cpp|
+2017-12-27 19:29:38|-256522368|0|service is stopped|Line 40: void ParaEngine::CParaEngineService::StopService():/opt/NPLRuntime/Client/trunk/ParaEngineClient/Core/ParaEngineService.cpp|
+error: CNPLNetServer unable to accept incoming connection, because: Operation canceled
+current connections 0
+NPL State worker_9 exited
+NPL State worker_8 exited
+NPL State worker_7 exited
+NPL State worker_6 exited
+NPL State worker_5 exited
+NPL State worker_40 exited
+NPL State worker_4 exited
+NPL State worker_39 exited
+NPL State worker_38 exited
+NPL State worker_37 exited
+NPL State worker_36 exited
+NPL State worker_35 exited
+NPL State worker_34 exited
+NPL State worker_33 exited
+NPL State worker_32 exited
+NPL State worker_31 exited
+NPL State worker_30 exited
+NPL State worker_3 exited
+NPL State worker_29 exited
+NPL State worker_28 exited
+NPL State worker_27 exited
+NPL State worker_26 exited
+NPL State worker_25 exited
+NPL State worker_24 exited
+NPL State worker_23 exited
+NPL State worker_22 exited
+NPL State worker_21 exited
+NPL State worker_20 exited
+NPL State worker_2 exited
+NPL State worker_19 exited
+NPL State worker_18 exited
+NPL State worker_17 exited
+NPL State worker_16 exited
+NPL State worker_15 exited
+NPL State worker_14 exited
+NPL State worker_13 exited
+NPL State worker_12 exited
+NPL State worker_11 exited
+NPL State worker_10 exited
+NPL State worker_1 exited
+NPL State tdb exited
+NPL State main exited
+CAsyncLoader worker thread 0 of 5 is exited
+CAsyncLoader worker thread 1 of 5 is exited
+CAsyncLoader worker thread 2 of 5 is exited
+CAsyncLoader worker thread 3 of 5 is exited
+CAsyncLoader worker thread 4 of 5 is exited
+CAsyncLoader IO thread is exited
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 19:31:26|-2001451136|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:31:26 17||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 19:31:26 17||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 19:31:26 17||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 19:31:26 17||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 19:31:26 17||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 19:31:26 63|main|system|TableDatabase|sync mode api is enabled in thread main
+warning: script file model/page.lua not found
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:31:26 72|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 19:31:26 72|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL max pending incoming connections allowed is 1000
+2017-12-27 19:31:33|1165928192|incoming connection (172.16.0.1/47168) is established and assigned a temporary id (~1). 
+NPL PROGRAME
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:31:33 7100|worker_5|system|TableDatabase|sync mode api is enabled in thread worker_5
+warning: script file model/page.lua not found
+GET /api/v1/admin/view
+database:database/admin.db () opened
+LibInitParaEngine in sqlite.cpp
+Plug-in loaded: /opt/NPLRuntime/ParaWorld/bin64/libsqlite.so version: 1 
+2017-12-27 19:31:33 7104|tdb|debug|SqliteStore|db: database/admin.db PRAGMA journal_mode WAL
+2017-12-27 19:31:33 7104|tdb|info|SqliteStore|collection admin openedNPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 19:31:33|1899538304|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:31:33 26||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 19:31:33 26||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 19:31:33 26||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 19:31:33 26||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 19:31:33 26||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 19:31:33 67|main|system|TableDatabase|sync mode api is enabled in thread main
+warning: script file model/page.lua not found
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:31:33 85|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 19:31:33 85|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL max pending incoming connections allowed is 1000
+2017-12-27 19:32:29|782751488|incoming connection (172.16.0.1/47644) is established and assigned a temporary id (~1). 
+NPL PROGRAME
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:32:29 56403|worker_5|system|TableDatabase|sync mode api is enabled in thread worker_5
+warning: script file model/page.lua not found
+GET /api/v1/admin/view?page=1&page_size=10&admin_id=1
+database:database/admin.db () opened
+LibInitParaEngine in sqlite.cpp
+Plug-in loaded: /opt/NPLRuntime/ParaWorld/bin64/libsqlite.so version: 1 
+2017-12-27 19:32:29 56406|tdb|debug|SqliteStore|db: database/admin.db PRAGMA journal_mode WAL
+2017-12-27 19:32:29 56406|tdb|info|SqliteStore|collection admin openedNPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 19:32:29|2129336192|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:32:29 35||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 19:32:29 35||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 19:32:29 35||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 19:32:29 35||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 19:32:29 35||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 19:32:29 71|main|system|TableDatabase|sync mode api is enabled in thread main
+warning: script file model/page.lua not found
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:32:29 85|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 19:32:29 86|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL max pending incoming connections allowed is 1000
+2017-12-27 19:32:44|998139648|incoming connection (172.16.0.1/47776) is established and assigned a temporary id (~1). 
+2017-12-27 19:32:44|998139648|incoming connection (172.16.0.1/47778) is established and assigned a temporary id (~2). 
+2017-12-27 19:32:44|998139648|incoming connection (172.16.0.1/47780) is established and assigned a temporary id (~3). 
+2017-12-27 19:32:44|998139648|incoming connection (172.16.0.1/47782) is established and assigned a temporary id (~4). 
+2017-12-27 19:32:44|998139648|incoming connection (172.16.0.1/47784) is established and assigned a temporary id (~5). 
+2017-12-27 19:32:44|998139648|incoming connection (172.16.0.1/47786) is established and assigned a temporary id (~6). 
+GET /js/main.js?bust=1514373314
+GET /js/lib/requirejs/domReady.js?bust=1514374374045
+GET /js/app.js?bust=1514374374045
+GET /js/app/controller/mainController.js?bust=1514374374045
+GET /js/lib/jquery/jquery.min.js?bust=1514374374045
+GET /js/app/helper/mdwiki.js?bust=1514374374045
+GET /js/app/helper/util.js?bust=1514374374045
+GET /js/app/helper/md/mdconf.js?bust=1514374374045
+GET /js/app/helper/md/md.js?bust=1514374374045
+GET /js/lib/bootstrap/js/bootstrap.min.js?bust=1514374374045
+GET /js/lib/bootstrap/css/bootstrap.min.css.map
+GET /js/lib/angular/angular.min.js?bust=1514374374045
+GET /js/lib/angular-ui-bootstrap/ui-bootstrap-tpls.js?bust=1514374374045
+GET /js/lib/satellizer/satellizer.min.js?bust=1514374374045
+GET /js/app/helper/storage.js?bust=1514374374045
+GET /js/app/directive/wikiPage.js?bust=1514374374045
+GET /js/lib/angular/angular.min.js.map
+GET /js/app/controller/headerController.js?bust=1514374374045
+network: handle_read stopped, asio msg: End of file. Connection will be closed 
+2017-12-27 19:32:54|998139648|connection closed (172.16.0.1/47782) with id (~4). 
+network: handle_read stopped, asio msg: End of file. Connection will be closed 
+network: handle_read stopped, asio msg: End of file. Connection will be closed 
+2017-12-27 19:32:54|998139648|connection closed (172.16.0.1/47784) with id (~5). 
+2017-12-27 19:32:54|998139648|connection closed (172.16.0.1/47786) with id (~6). 
+GET /js/app/controller/loginController.js?bust=1514374374045
+GET /js/app/controller/footerController.js?bust=1514374374045
+GET /js/lib/requirejs/text.js?bust=1514374374045
+GET /html/header.html?bust=1514374374045
+GET /html/footer.html?bust=1514374374045
+GET /html/login.html?bust=1514374374045
+GET /html/test.html?bust=1514374374045
+2017-12-27 19:33:14|998139648|incoming connection (172.16.0.1/48042) is established and assigned a temporary id (~7). 
+2017-12-27 19:33:14|998139648|incoming connection (172.16.0.1/48044) is established and assigned a temporary id (~8). 
+2017-12-27 19:33:14|998139648|incoming connection (172.16.0.1/48046) is established and assigned a temporary id (~9). 
+NPL PROGRAME
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:33:14 44651|worker_5|system|TableDatabase|sync mode api is enabled in thread worker_5
+warning: script file model/page.lua not found
+GET /api/v1/admin/new
+2017-12-27|19:33:14 helper/errors.lua:40: in function wrap {error={error={message="params error",id=2,},},data={},filepos="controller/admin.lua:38",}
+2017-12-27|19:33:14 helper/errors.lua:55: in function wrap {}
+GET /api/v1/admin/view
+database:database/admin.db () opened
+LibInitParaEngine in sqlite.cpp
+Plug-in loaded: /opt/NPLRuntime/ParaWorld/bin64/libsqlite.so version: 1 
+2017-12-27 19:33:18 48698|tdb|debug|SqliteStore|db: database/admin.db PRAGMA journal_mode WAL
+2017-12-27 19:33:18 48698|tdb|info|SqliteStore|collection admin openedNPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 19:33:18|837740416|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:33:18 24||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 19:33:18 24||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 19:33:18 24||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 19:33:18 24||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 19:33:18 24||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 19:33:18 69|main|system|TableDatabase|sync mode api is enabled in thread main
+warning: script file model/page.lua not found
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:33:18 83|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 19:33:18 83|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 19:33:28|2035132288|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:33:28 22||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 19:33:28 22||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 19:33:28 22||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 19:33:28 22||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 19:33:28 22||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 19:33:28 63|main|system|TableDatabase|sync mode api is enabled in thread main
+warning: script file model/page.lua not found
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:33:28 75|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 19:33:28 75|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 19:33:33|-707713152|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:33:34 25||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 19:33:34 25||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 19:33:34 25||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 19:33:34 25||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 19:33:34 25||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 19:33:34 62|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+warning: script file model/page.lua not found
+ffi loaded shared lib: C
+2017-12-27 19:33:34 77|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 19:33:34 77|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 19:36:34|-243234944|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:36:34 20||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 19:36:34 20||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 19:36:34 20||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 19:36:34 20||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 19:36:34 20||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 19:36:34 63|main|system|TableDatabase|sync mode api is enabled in thread main
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+warning: script file model/page.lua not found
+2017-12-27 19:36:34 73|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 19:36:34 73|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
+NPL bin dir: /opt/NPLRuntime/ParaWorld/bin64/
+no packages at: /opt/NPLRuntime/ParaWorld/packages
+ParaEngine Root Dir is /root/code/kpda/
+search path: /root/code/kpda/npl_packages/main/
+./packages dir: /root/code/kpda/
+main loop: npl_packages/nws/npl_mod/nws/nws.lua 
+CAssetManifest loaded 0 files
+CAsyncLoader QueueID:0(Local) has 1 worker threads
+CAsyncLoader QueueID:1(Asset) has 1 worker threads
+CAsyncLoader QueueID:2(Web) has 1 worker threads
+CAsyncLoader QueueID:3(Asset_BigFile) has 1 worker threads
+CAsyncLoader QueueID:4(AudioFile) has 1 worker threads
+CAsyncLoader is started with 1 IO thread and 5 worker threads
+warning: ParaEngine::LoadLibrary( ./libPhysicsBT.so ) failed because ./libPhysicsBT.so: cannot open shared object file: No such file or directory
+Failed loading plug-in: ./libPhysicsBT.so
+note: no physics engine found, null physics is used 
+2017-12-27 19:36:38|1069451136|ParaEngineServer started
+(main) state is now running in a separate thread. It is more responsive now. 
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:36:38 22||system|os|hook cm_m_down_hook of type 1 is created
+2017-12-27 19:36:38 22||system|os|hook cm_m_move_hook of type 1 is created
+2017-12-27 19:36:38 22||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-12-27 19:36:38 22||system|os|hook cm_m_up_hook of type 1 is created
+2017-12-27 19:36:38 22||system|os|hook cm_keydown of type 1 is created
+NPL PROGRAME
+2017-12-27 19:36:38 60|main|system|TableDatabase|sync mode api is enabled in thread main
+warning: script file model/page.lua not found
+ParaEngine LuaJIT 64bits version:LuaJIT 2.1.0-beta3
+Jit status:true, SSE2, SSE3, SSE4.1, BMI2, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: C
+2017-12-27 19:36:38 72|tdb|info|TableDatabase|IO thread started in NPL thread: tdb
+2017-12-27 19:36:38 72|tdb|info|TableDatabase|table database: database/ is opened.
+NPL server 0.1 is listening on 0.0.0.0:8888
+TCPKeepAlive: false
+AppKeepAlive: false
+IdleTimeout: true
+IdleTimeoutPeriod: 120000
+UseCompression(incoming): false
+CompressionLevel: -1
+CompressionThreshold: 204800
