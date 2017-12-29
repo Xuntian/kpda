@@ -17,11 +17,10 @@ nws.router(nws.config.api_url_prefix .. "data_source", data_source)
 nws.router(nws.config.api_url_prefix .. "page", page)
 nws.router(nws.config.api_url_prefix .. "admin", admin)
 
-
--- nws.router.default_handler = function(ctx) 
--- 	local url = ctx.request.url 
--- 	ctx.response:render("index.html", {})
--- end
+nws.router.default_handler = function(ctx) 
+	local url = ctx.request.url 
+	ctx.response:render("index.html", {})
+end
 
 
 

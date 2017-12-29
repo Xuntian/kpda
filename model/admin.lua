@@ -28,9 +28,9 @@ admin:insert({name="lzq", password=pass, email="1@1.com", cellphone="12345678901
 ]]
 
 function admin:test(params)
-	--self:delete({admin_id=2})
-	local userinfo, err = self:findOne({name=params.name, password=params.password})
-	return userinfo, err
+	-- self:delete({admin_id=2})
+	-- local userinfo, err = self:findOne({name=params.name, password=params.password})
+	-- return userinfo, err
 end
 
 function admin:test1()
