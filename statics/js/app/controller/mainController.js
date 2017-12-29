@@ -18,8 +18,8 @@ define([
 			//util.replaceState({url:"dashboard/loginController"});
 		}
 
-		app.getUser(function(userinfo){
-			$rootScope.user = userinfo;
+		app.getAdmin(function(admin_info){
+			$rootScope.admin = admin_info;
 			init();
 		}, function(){
 			init();

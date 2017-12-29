@@ -113,7 +113,37 @@ define([
     }
 
 	// 获取用户信息
-	app.getUser = function(success, error) {
+	// app.getUser = function(success, error) {
+	// 	var $auth = app.ng_objects.$auth;
+	// 	var storage = app.objects.storage;
+	// 	var util = app.objects.util;
+	// 	var config = app.objects.config;
+	// 	if (!$auth.isAuthenticated()) {
+	// 		error && error();
+	// 		return;
+	// 	}
+	// 	var authUseinfo = $auth.getPayload();
+	// 	var userinfo = app.objects.user || storage.sessionStorageGetItem("userinfo");
+	// 	if (userinfo && authUseinfo && userinfo.name == authUseinfo.name) {
+	// 		success && success(userinfo);
+	// 		return;
+	// 	}
+		
+	// 	util.$http({
+	// 		url: config.apiUrlPrefix + "user", 
+	// 		method: "GET",
+	// 		success: function(data) {
+	// 			if (data) {
+	// 				success && success(data);	
+	// 				app.setUser(data);
+	// 			}
+	// 		},
+	// 		error: error,
+	// 	});
+
+	// 	return userinfo;
+	// }
+	app.getAdmin = function(success, error) {
 		var $auth = app.ng_objects.$auth;
 		var storage = app.objects.storage;
 		var util = app.objects.util;
@@ -122,36 +152,44 @@ define([
 			error && error();
 			return;
 		}
-		var authUseinfo = $auth.getPayload();
-		var userinfo = app.objects.user || storage.sessionStorageGetItem("userinfo");
-		if (userinfo && authUseinfo && userinfo.username == authUseinfo.username) {
-			success && success(userinfo);
+		var authAdminInfo = $auth.getPayload();
+		var admin_info = app.objects.admin || storage.sessionStorageGetItem("admin_info");
+		if (admin_info && authAdminInfo && admin_info.name == authAdminInfo.name) {
+			success && success(admin_info);
 			return;
 		}
-		
+		console.log(admin_info);
+		console.log(authAdminInfo);
 		util.$http({
-			url: config.apiUrlPrefix + "user", 
+			url: config.apiUrlPrefix + "admin/get", 
 			method: "GET",
+			params: {name: authAdminInfo.name},
 			success: function(data) {
 				if (data) {
 					success && success(data);	
-					app.setUser(data);
+					app.setAdmin(data);
 				}
 			},
 			error: error,
 		});
 
-		return userinfo;
+		return admin_info;
 	}
 	// 设置用户信息
-	app.setUser = function(userinfo) {
+	// app.setUser = function(userinfo) {
+	// 	var $rootScope = app.ng_objects.$rootScope;
+	// 	var storage = app.objects.storage;
+	// 	app.objects.user = $rootScope.user = userinfo;
+	// 	$rootScope.$broadcast("userinfo", userinfo);
+	// 	storage.sessionStorageSetItem("userinfo", userinfo);	
+	// }
+	app.setAdmin = function(admin_info) {
 		var $rootScope = app.ng_objects.$rootScope;
 		var storage = app.objects.storage;
-		app.objects.user = $rootScope.user = userinfo;
-		$rootScope.$broadcast("userinfo", userinfo);
-		storage.sessionStorageSetItem("userinfo", userinfo);	
+		app.objects.admin = $rootScope.admin = admin_info;
+		$rootScope.$broadcast("admin_info", admin_info);
+		storage.sessionStorageSetItem("admin_info", admin_info);	
 	}
-
 
     window.app = app;
     return app;

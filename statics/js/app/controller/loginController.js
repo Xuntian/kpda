@@ -21,9 +21,9 @@ define([
 					url: config.apiUrlPrefix + "admin/login",
 					params: params,
 					success: function(data) {
+						console.log(data);
 						$auth.setToken(data.token);
-						app.setUser(data.userinfo);
-						//window.location.href = "/dashboard/admin";
+						app.setAdmin(data.admin_info);
 						util.go("/dashboard/admin");
 					},
 					error: function(err) {

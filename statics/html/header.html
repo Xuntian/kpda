@@ -13,9 +13,11 @@
 		<div class="container-fluid cl"> <a class="logo navbar-logo f-l mr-10 hidden-xs" href="#">KeepWork 后台管理</a> <a class="logo navbar-logo-m f-l mr-10 visible-xs" href="#"></a> 
 			<a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
 			<nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs" ng-show="true">
-				<ul class="cl">
-					<li> 超级管理员 </li>
+				<ul class="cl" ng-if="isLogined">
+					<li> {{admin_name}} </li>
+					<!--
 					<li id="Hui-msg"> <a href="#" title="消息"><span class="badge badge-danger">1</span><i>消息</i></a> </li>
+					-->
 					<li><a ng-click="logout()">退出</a></li>
 				</ul>
 			</nav>

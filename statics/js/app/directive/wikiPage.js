@@ -14,7 +14,7 @@ define([
 			controller: ["$scope", "$element", "$attrs", function($scope, $element, $attrs){
 				var content, contentUrl;
 				var $rootScope = app.ng_objects.$rootScope;
-
+				var $auth = app.ng_objects.$auth;
 				$scope.imgsPath = $rootScope.imgsPath;
 
 				function render() {
@@ -27,11 +27,21 @@ define([
 						return;
 					}
 
-					var urlobj = util.parseUrl(contentUrl);
-					console.log(urlobj);
-					if (!urlobj.username || urlobj.username == "dashboard") {
-						var ctrlPath = "controller/" + (urlobj.sitename || "login") + "Controller";
-						//console.log(ctrlPath);
+					if ($auth.isAuthenticated()) {
+						var urlobj = util.parseUrl(contentUrl);
+						if (!urlobj.username || urlobj.username == "dashboard") {
+							var ctrlPath = "controller/" + (urlobj.sitename || "admin") + "Controller";
+							//console.log(ctrlPath);
+							require([  
+								ctrlPath,
+							], function(content) {
+								//console.log(content);
+								$element.html($compile(content)($scope));
+								$scope.$apply();
+							});
+						}
+					} else {
+						var ctrlPath = "controller/loginController";
 						require([  
 							ctrlPath,
 						], function(content) {
@@ -39,28 +49,40 @@ define([
 							$element.html($compile(content)($scope));
 							$scope.$apply();
 						});
-					} else {
-						var url = urlobj.url;
-						util.$http({
-							url:config.apiUrlPrefix + 'page/get_content_by_path',
-							method:"GET",
-							params: {
-								path: url.substring(1) + ".md",
-							},
-							success:function(data) {
-								if (!data) {
-									return;
-								}
-								var md = mdwiki();
-								var htmlstr = md.render(data);
-								$element.html($compile(htmlstr)($scope));
-								util.$apply($scope);
-							},
-							error: function() {
-
-							}
-						})
 					}
+					//console.log(urlobj);
+					// if (!urlobj.username || urlobj.username == "dashboard") {
+					// 	var ctrlPath = "controller/" + (urlobj.sitename || "login") + "Controller";
+					// 	//console.log(ctrlPath);
+					// 	require([  
+					// 		ctrlPath,
+					// 	], function(content) {
+					// 		//console.log(content);
+					// 		$element.html($compile(content)($scope));
+					// 		$scope.$apply();
+					// 	});
+					// } else {
+					// 	var url = urlobj.url;
+					// 	util.$http({
+					// 		url:config.apiUrlPrefix + 'page/get_content_by_path',
+					// 		method:"GET",
+					// 		params: {
+					// 			path: url.substring(1) + ".md",
+					// 		},
+					// 		success:function(data) {
+					// 			if (!data) {
+					// 				return;
+					// 			}
+					// 			var md = mdwiki();
+					// 			var htmlstr = md.render(data);
+					// 			$element.html($compile(htmlstr)($scope));
+					// 			util.$apply($scope);
+					// 		},
+					// 		error: function() {
+
+					// 		}
+					// 	})
+					// }
 				}
 
 				$scope.$watch($attrs.content, function(newVal) {
