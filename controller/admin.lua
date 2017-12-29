@@ -9,8 +9,14 @@ function admin:asd(ctx)
     return "asd";
 end
 
-function admin:getAuthority(ctx)
-    return " ";
+function admin:isRoot(ctx)
+    local admin_name = ctx.name
+    local admin_info = admin_model:find({name=admin_name})
+    if applicant_info[1].role_id == 0 then 
+        return true;
+    else
+        return false;
+    end
 end
 
 function admin:list(ctx)
@@ -23,13 +29,13 @@ function admin:list(ctx)
     -- nws.log(ctx.authority)
     
     local applicant = ctx.name
-    local applicant_info = admin_model:find({name=applicant})
+    -- local applicant_info = admin_model:find({name=applicant})
     if applicant_info then 
         -- nws.log(applicant_info[1].role_id)
-        if applicant_info[1].role_id == 0 then 
+        if self:isRoot(ctx) then 
             admin_list = admin_model:find({})
         else  
-            admin_list = applicant_info
+            admin_list = admin_model:find({name=admin_name})
         end
     else  
         return (errors:wrap("token信息有误"))
