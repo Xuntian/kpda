@@ -6,8 +6,9 @@ nws.http:register_filter(function(ctx, next_filter)
 	ctx.token = nws.util.decode_jwt(token)
 
 	if ctx.token then
-		ctx.username = ctx.token.username
-		ctx.user_id = ctx.token.user_id
+		ctx.name = ctx.token.admin_name
+		ctx.admin_id = ctx.token.admin_id
+		ctx.authority = 1111
 	end
 	
 	next_filter()

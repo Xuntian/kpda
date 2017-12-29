@@ -137,13 +137,13 @@ define([
         $http(config).then(function (response) {
             var data = response.data;
 			if (!data || !data.error || data.error.id != 0) {
-                console.log(obj.url, data);
+                //console.log(obj.url, data);
 				error && error(data.error);
 			} else {
 				success && success(data.data);
 			}
         }).catch(function (response) {
-            console.log(obj.url, response);
+            //console.log(obj.url, response);
 			error && error();
         });
 

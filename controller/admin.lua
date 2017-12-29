@@ -9,10 +9,33 @@ function admin:asd(ctx)
     return "asd";
 end
 
--- function admin:list()
---     local admin_info, err = admin_model:find()
---     return (errors:wrap(nil, {admin_info = admin_info}))
--- end
+function admin:getAuthority(ctx)
+    return " ";
+end
+
+function admin:list(ctx)
+    local admin_list = {}
+    -- local params = ctx.request:get_params()
+    -- local applicant = params.applicant;
+    -- local applicant_info = admin_model:find({name=applicant})
+    -- nws.log(ctx.name)
+    -- nws.log(ctx.admin_id)
+    -- nws.log(ctx.authority)
+    
+    local applicant = ctx.name
+    local applicant_info = admin_model:find({name=applicant})
+    if applicant_info then 
+        -- nws.log(applicant_info[1].role_id)
+        if applicant_info[1].role_id == 0 then 
+            admin_list = admin_model:find({})
+        else  
+            admin_list = applicant_info
+        end
+    else  
+        return (errors:wrap("token信息有误"))
+    end
+    return (errors:wrap(nil, {admin_list = admin_list}))
+end
 
 function admin:login(ctx)
     local params = ctx.request:get_params()
