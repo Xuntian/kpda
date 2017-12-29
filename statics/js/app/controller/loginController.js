@@ -24,7 +24,8 @@ define([
 						console.log(data);
 						$auth.setToken(data.token);
 						app.setAdmin(data.admin_info);
-						util.go("/dashboard/admin");
+						//util.go("/dashboard/admin");
+						window.location.href = "/dashboard/admin";
 					},
 					error: function(err) {
 						$scope.errMsg = err.message;
