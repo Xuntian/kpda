@@ -9,11 +9,23 @@ function admin:asd(ctx)
     return "asd";
 end
 
+-- function admin:list(ctx)
+--     local admin_list = {}
+--     local admin_name = ctx.name
+--     local admin_info = admin_model:find({name=admin_name})
+--     if admin_info[1].role_id == 0 then 
+--         admin_list = admin_model:find({})
+--     else
+--         admin_list = admin_model:find({name=admin_name})
+--     end
+--     return (errors:wrap(nil, {admin_list = admin_list}))
+-- end
+
 function admin:list(ctx)
     local admin_list = {}
     local admin_name = ctx.name
-    local admin_info = admin_model:find({name=admin_name})
-    if admin_info[1].role_id == 0 then 
+    local isRoot = admin_model:isRoot(admin_name)
+    if isRoot then 
         admin_list = admin_model:find({})
     else
         admin_list = admin_model:find({name=admin_name})
@@ -34,7 +46,11 @@ function admin:login(ctx)
     local admin_info, err = admin_model:find_one({name=name, password=password})
 	if not admin_info then
 		return (errors:wrap("用户名或密码错误"))
-	end
+    end
+    
+    if admin_info.status == 0 then
+        return (errors:wrap("该管理员账户无效"))
+    end
 
 	-- 生成token
 	local token = nws.util.encode_jwt({admin_id = admin_info.admin_id, admin_name = admin_info.name}, nil, 3600 * 100)
@@ -72,6 +88,16 @@ function admin:add(ctx)
         -- ctx.response:send(data, 200)
         return (errors:wrap(nil, {admin_info = data}))
     end
+end
+
+function admin:remove(ctx)
+    local admin_name = ctx.name
+    local isRoot = admin_model:isRoot(admin_name)
+    if not isRoot then 
+        return (errors:wrap("该账户无删除权限"))
+    end
+    local params = ctx.request:get_params()
+    local num = admin:
 end
 
 function admin:test(ctx)

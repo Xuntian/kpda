@@ -37,4 +37,30 @@ function admin:test1()
 	return "asd"
 end
 
+-- function admin:isVaild(admin_name)
+-- 	local isVaild = false
+-- 	nws.log("1111111111111111")
+-- 	local admin_info = self:find({name=admin_name})
+-- 	local admin_num = #admin_info
+-- 	nws.log("admin_num: " .. admin_num)
+-- 	nws.log("admin_info: " .. admin_info)
+-- 	local admin_status = admin_info[1].status
+-- 	if admin_info[1].status == 1 then 
+-- 		isVaild = true
+-- 	end
+-- 	return isVaild
+-- end
+
+function admin:isRoot(admin_name)
+	local isRoot = false
+	if admin_name then 
+		local admin_info = self:find({name=admin_name})
+		if admin_info[1].role_id == 0 then 
+			isRoot = true
+		end
+	end
+	return isRoot
+end
+
+
 return admin
