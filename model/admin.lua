@@ -62,5 +62,15 @@ function admin:isRoot(admin_name)
 	return isRoot
 end
 
+function admin:getAuthorith(admin_name)
+	local authority = 1
+	if admin_name then 
+		local admin_info = self:find({name=admin_name})
+		if admin_info[1].status == 1 then 
+			authority = admin_info[1].authority
+		end
+	end
+	return authority
+end
 
 return admin

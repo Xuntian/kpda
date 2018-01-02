@@ -60,6 +60,11 @@ function admin:login(ctx)
 end
 
 function admin:add(ctx)
+    local admin_name = ctx.name
+    local isRoot = admin_model:isRoot(admin_name)
+    if not isRoot then 
+        return (errors:wrap("该账户无新建管理员账户权限"))
+    end
     local params = ctx.request:get_params()
     if not params.name or not params.email or not params.cellphone or not params.authority or not params.role_id then
 		return (errors:wrap(errors.PARAMS_ERROR, params))
@@ -94,19 +99,38 @@ function admin:remove(ctx)
     local admin_name = ctx.name
     local isRoot = admin_model:isRoot(admin_name)
     if not isRoot then 
-        return (errors:wrap("该账户无删除权限"))
+        return (errors:wrap("该账户无删除管理员账户权限"))
     end
     local params = ctx.request:get_params()
     if params.id then 
         local num = admin_model:delete()
     else
-        return (errors:wrap("参数错误"))
+        return (errors:wrap("id参数错误"))
     end
 
     if num == 1 then 
         return (errors:wrap("删除成功"))
     else
         return (errors:wrap("账户删除错误或需要删除的账户不存在"))
+    end
+end
+
+function admin:modify(ctx)
+    local admin_name = ctx.name
+    local isRoot = admin_model:isRoot(admin_name)
+    if not isRoot then 
+        return (errors:wrap("该账户无修改管理员账户信息权限"))
+    end
+    local params = ctx.request:get_params()
+    if params.id then 
+        local err, data = admin_model:update({id=params.id}, params)
+        if err then
+            return (errors:wrap(err))
+        else
+            return (errors:wrap(nil, {admin_info = data}))
+        end
+    else
+        return (errors:wrap("id参数错误"))
     end
 end
 
