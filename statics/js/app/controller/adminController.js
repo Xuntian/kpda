@@ -17,7 +17,7 @@ define([
                 $scope.admin_list = data.admin_list;
             },
             error: function(err) {
-            
+                
             }
         });	
 	}]);

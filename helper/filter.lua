@@ -8,7 +8,6 @@ nws.http:register_filter(function(ctx, next_filter)
 	if ctx.token then
 		ctx.name = ctx.token.admin_name
 		ctx.admin_id = ctx.token.admin_id
-		ctx.authority = 1111
 	end
 	
 	next_filter()
