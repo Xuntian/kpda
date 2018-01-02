@@ -97,7 +97,17 @@ function admin:remove(ctx)
         return (errors:wrap("该账户无删除权限"))
     end
     local params = ctx.request:get_params()
-    local num = admin:
+    if params.id then 
+        local num = admin_model:delete()
+    else
+        return (errors:wrap("参数错误"))
+    end
+
+    if num == 1 then 
+        return (errors:wrap("删除成功"))
+    else
+        return (errors:wrap("账户删除错误或需要删除的账户不存在"))
+    end
 end
 
 function admin:test(ctx)
