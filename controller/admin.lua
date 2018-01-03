@@ -33,6 +33,20 @@ function admin:list(ctx)
     return (errors:wrap(nil, {admin_list = admin_list}))
 end
 
+function admin:search(ctx)
+    local admin_name = ctx.name
+    local isRoot = admin_model:isRoot(admin_name)
+    if not isRoot then 
+        return (errors:wrap("该账户无搜索管理员账户权限"))
+    end
+    local params = ctx.request:get_params()
+    if not params.name then
+		return (errors:wrap(errors.PARAMS_ERROR, params))
+    end
+    local admin_list = admin_model:find({name=params.name})
+    return (errors:wrap(nil, {admin_list = admin_list}))
+end
+
 function admin:login(ctx)
     local params = ctx.request:get_params()
     local name = params.name
@@ -129,6 +143,20 @@ function admin:modify(ctx)
         else
             return (errors:wrap(nil, {admin_info = data}))
         end
+    else
+        return (errors:wrap("id参数错误"))
+    end
+end
+
+function admin:disable(ctx)
+    local admin_name = ctx.name
+    local isRoot = admin_model:isRoot(admin_name)
+    if not isRoot then 
+        return (errors:wrap("该账户无禁用/启用管理员账户信息权限"))
+    end
+    local params = ctx.request:get_params()
+    if params.id then 
+        local num = admin_model:delete()
     else
         return (errors:wrap("id参数错误"))
     end
