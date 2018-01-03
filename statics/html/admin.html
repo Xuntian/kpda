@@ -1,6 +1,12 @@
 <style>
     .admin-panel{
-        padding: 40px 180px;
+        padding: 50px 180px;
+    }
+    /* #newAdmin{
+        padding: 0 10px 0 0;
+    } */
+    .btn-default{
+        margin: 0 5px;
     }
 </style>
 
@@ -11,12 +17,19 @@
 
     <div class="admin-panel">
         <article class="cl pd-20">
-            <p class="f-20 text-success"></p>
+            <div class="form-group" ng-if="true">
+                <label>管理员用户名:</label>    
+                <input ng-model="managerSearchByUsername" type="text" placeholder="请输入用户名">    
+                <button class="btn btn-default" ng-click="search()">查询</button> 
+                <button class="btn btn-default" ng-click="add()" id="newAdmin">新建管理员账号</button>
+            </div>
             <table class="table table-border table-bordered table-bg">
                 <thead>
+                    <!--
                     <tr>
                         <th colspan="9" scope="col">管理员账户</th>
                     </tr>
+                    -->
                     <tr class="text-c">
                         <th>账户ID</th>
                         <th>账户名</th>
@@ -27,6 +40,7 @@
                         <th>状态</th>
                         <th>创建时间</th>
                         <th>修改时间</th>
+                        <th ng-if="true">操作</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -40,6 +54,11 @@
                         <td>{{x.status}}</td>
                         <td>{{x.create_time}}</td>
                         <td>{{x.update_time}}</td>
+                        <td ng-if="true">
+                            <button class="btn-prime" ng-click="modify()">修改信息</button>
+                            <button class="btn-prime" ng-click="disable()">{{x.status == -1 ? "启用" : "禁用"}}</button>
+                            <button class="btn-prime" ng-click="remove()">删除</button>
+                        </td>
                     </tr>
                 </tbody>
             </table>
