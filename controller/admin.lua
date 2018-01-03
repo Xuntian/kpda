@@ -155,10 +155,18 @@ function admin:disable(ctx)
         return (errors:wrap("该账户无禁用/启用管理员账户信息权限"))
     end
     local params = ctx.request:get_params()
-    if params.id then 
-        local num = admin_model:delete()
-    else
+    if not params.id then
         return (errors:wrap("id参数错误"))
+    end
+    if params.status then 
+        local err, data = admin_model:update({id=params.id}, {status=params.status})
+        if err then
+            return (errors:wrap(err))
+        else
+            return (errors:wrap(nil, {admin_info = data}))
+        end
+    else
+        return (errors:wrap("status参数错误"))
     end
 end
 
