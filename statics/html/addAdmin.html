@@ -1,0 +1,15 @@
+<h3>新建管理员账户</h3>
+<form class="clearfix" style="width:50%;">
+    <label>账户名</label>
+    <input type="text" class="form-control" name="email" placeholder="登录账号" ng-model="name">
+    <label>邮箱</label>
+    <input type="text" class="form-control" name="email" placeholder="登录账号" ng-model="email">
+    <label>手机号</label>
+    <input type="text" class="form-control" name="email" placeholder="登录账号" ng-model="cellphone">
+    <label>权限</label>
+    <input type="text" class="form-control" name="email" placeholder="登录账号" ng-model="authority">
+    <label>角色ID</label>
+    <input type="text" class="form-control" name="email" placeholder="登录账号" ng-model="role_id">
+    <span id="total-err" class="text-danger">{{errMsg}}</span>
+    <a ng-click="login()" class="btn btn-primary btn-block btn-lg">新建管理员账户</a>
+</form>

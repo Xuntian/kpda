@@ -4,7 +4,7 @@ define([
     'text!html/admin.html',
     'controller/asideController'
 ], function (app, asideHtmlContent, adminHtmlContent, asideController) {
-    app.registerController("adminController", ['$scope', function ($scope) {
+    app.registerController("adminController", ['$scope', '$uibModal', function ($scope, $uibModal) {
         $scope.asideHtmlContent = asideHtmlContent;
         $scope.asd = "asd";
         var config = app.objects.config;
@@ -49,7 +49,28 @@ define([
         }
 
         $scope.add = function(){
-
+            var modalInstance = $uibModal.open({    
+                //backdrop:false,  
+                size:'sm',  
+                animation:true,  
+                templateUrl: 'html/addAdmin.html',   
+                controller:'chooseDeptController',  
+                resolve: {    
+                    nodes:function(){  
+                        return $scope.nodes;  
+                    }  
+                }  
+            });    
+            /* modalInstance.opened.then(function(){//模态窗口打开之后执行的函数   
+                console.log('modal is opened');   
+            });  */  
+            
+            modalInstance.result.then(function (result) {    
+                console.log(result); //result关闭是回传的值   
+            }, function (reason) {    
+                console.log(reason);//点击空白区域，总会输出backdrop click，点击取消，则会暑促cancel    
+                
+            }); 
         }
 
         $scope.modify = function(){

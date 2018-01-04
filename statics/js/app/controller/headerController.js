@@ -10,7 +10,7 @@ define([
 		var util = app.objects.util;
 		var admin_info = storage.sessionStorageGetItem("admin_info");
 		//var $rootScope = app.ng_objects.$rootScope;
-		console.log(admin_info);
+		//console.log("111"+admin_info);
 		$scope.admin_name = admin_info.name;
 		$scope.isLogined = $auth.isAuthenticated();
 
@@ -24,3 +24,5 @@ define([
 
 	return htmlContent;
 });
+
+
