@@ -117,7 +117,7 @@ function admin:remove(ctx)
     end
     local params = ctx.request:get_params()
     if params.id then 
-        local num = admin_model:delete()
+        local num = admin_model:delete({admin_id=params.id})
     else
         return (errors:wrap("id参数错误"))
     end
