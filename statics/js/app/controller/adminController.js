@@ -56,12 +56,47 @@ define([
             alert("search------------");
         }
 
-        $scope.disable = function(id, status){
-            alert("search------------");
+        $scope.disable = function(id, currentStatus){
+            var operation = (currentStatus == 1) ? "禁用" : "启用";
+            var confirm = window.confirm("确定" + operation + "id为" + id + "的管理员账户吗？");
+            var status = -currentStatus;
+            if(confirm){
+                util.$http({
+                    method:"GET",
+                    url: config.apiUrlPrefix + "admin/disable",
+                    params: {
+                        id: id,
+                        status: status
+                    },
+                    success: function(data) {
+                        console.log(data);
+                        $scope.list();
+                    },
+                    error: function(err) {
+                        
+                    }
+                });	
+            }
         }
 
         $scope.remove = function(id){
-            alert("search------------");
+            var confirm = window.confirm("确定删除id为" + id + "的管理员账户吗？");
+            if(confirm){
+                util.$http({
+                    method:"GET",
+                    url: config.apiUrlPrefix + "admin/search",
+                    params: {
+                        name: $scope.searchByName
+                    },
+                    success: function(data) {
+                        console.log(data);
+                        $scope.admin_list = data.admin_list;
+                    },
+                    error: function(err) {
+                        
+                    }
+                });	
+            }
         }
 	}]);
 

@@ -159,7 +159,8 @@ function admin:disable(ctx)
         return (errors:wrap("id参数错误"))
     end
     if params.status then 
-        local err, data = admin_model:update({id=params.id}, {status=params.status})
+        nws.log(params.id)
+        local err, data = admin_model:update({admin_id=params.id}, {status=params.status})
         if err then
             return (errors:wrap(err))
         else

@@ -56,8 +56,8 @@
                         <td>{{x.update_time}}</td>
                         <td ng-if="true">
                             <button class="btn-prime" ng-click="modify()">修改信息</button>
-                            <button class="btn-prime" ng-click="disable()">{{x.status == 1 ? "禁用" : "启用"}}</button>
-                            <button class="btn-prime" ng-click="remove()">删除</button>
+                            <button class="btn-prime" ng-click="disable(x.admin_id, x.status)">{{x.status == 1 ? "禁用" : "启用"}}</button>
+                            <button class="btn-prime" ng-click="remove(x.admin_id)">删除</button>
                         </td>
                     </tr>
                 </tbody>
